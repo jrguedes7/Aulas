@@ -4,7 +4,7 @@ echo "Digite o primeiro numero: ";
 $numero1 = (float) trim(readline());
 echo "Digite o segundo numero: ";
 $numero2 = (float) trim(readline());
-echo "Escolha a operacao (+, -, *, /): ";
+echo "Digite a operacao (+, -, *, /): ";
 $operacao = trim(readline());
 
 switch ($operacao) {

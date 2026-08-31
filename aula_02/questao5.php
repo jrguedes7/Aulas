@@ -1,21 +1,21 @@
 <?php
 
-echo "Menu de atendimento\n";
+echo "Menu:\n";
 echo "1 - Suporte\n";
 echo "2 - Financeiro\n";
 echo "3 - Vendas\n";
-echo "Escolha uma opcao: ";
+echo "Digite a opcao: ";
 $opcao = (int) trim(readline());
 
 switch ($opcao) {
     case 1:
-        echo "Voce escolheu Suporte" . PHP_EOL;
+        echo "Suporte" . PHP_EOL;
         break;
     case 2:
-        echo "Voce escolheu Financeiro" . PHP_EOL;
+        echo "Financeiro" . PHP_EOL;
         break;
     case 3:
-        echo "Voce escolheu Vendas" . PHP_EOL;
+        echo "Vendas" . PHP_EOL;
         break;
     default:
         echo "Opcao invalida" . PHP_EOL;

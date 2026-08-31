@@ -1,6 +1,6 @@
 <?php
 
-echo "Digite o valor total da compra: ";
+echo "Digite o valor da compra: ";
 $totalCompra = (float) trim(readline());
 
 if ($totalCompra <= 50) {
@@ -16,4 +16,4 @@ if ($totalCompra <= 50) {
 $totalFinal = $totalCompra + $frete;
 
 echo "Frete: R$ " . number_format($frete, 2, ',', '.') . PHP_EOL;
-echo "Total da compra: R$ " . number_format($totalFinal, 2, ',', '.') . PHP_EOL;
+echo "Total: R$ " . number_format($totalFinal, 2, ',', '.') . PHP_EOL;

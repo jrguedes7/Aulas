@@ -6,7 +6,7 @@ echo "Digite a senha: ";
 $senha = trim(readline());
 
 if ($usuario == "admin" && $senha == "1234") {
-    echo "Login realizado com sucesso" . PHP_EOL;
+    echo "Login ok" . PHP_EOL;
 } else {
-    echo "Usuario ou senha invalidos" . PHP_EOL;
+    echo "Dados invalidos" . PHP_EOL;
 }

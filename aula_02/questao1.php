@@ -8,4 +8,4 @@ $valorPorKm = 2.50;
 
 $valorCorrida = $taxaFixa + ($distancia * $valorPorKm);
 
-echo "Valor da corrida: R$ " . number_format($valorCorrida, 2, ',', '.') . PHP_EOL;
+echo "Total da corrida: R$ " . number_format($valorCorrida, 2, ',', '.') . PHP_EOL;

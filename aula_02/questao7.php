@@ -17,4 +17,4 @@ $valorDesconto = $valorCompra * $desconto;
 $valorFinal = $valorCompra - $valorDesconto;
 
 echo "Desconto: R$ " . number_format($valorDesconto, 2, ',', '.') . PHP_EOL;
-echo "Valor final: R$ " . number_format($valorFinal, 2, ',', '.') . PHP_EOL;
+echo "Valor a pagar: R$ " . number_format($valorFinal, 2, ',', '.') . PHP_EOL;

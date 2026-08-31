@@ -4,6 +4,6 @@ services:
     container_name: php_aulas
     working_dir: /app
     volumes:
-      - ./src:/app
+      - ./aula_02:/app
     stdin_open: true
     tty: true
