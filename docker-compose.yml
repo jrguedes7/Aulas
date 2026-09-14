@@ -1,9 +1,9 @@
 services:
- php:
+  php:
     image: php:8.3-cli
     container_name: php_aulas
     working_dir: /app
     volumes:
-      - ./aula_02:/app
+      - .:/app
     stdin_open: true
     tty: true
