@@ -1,0 +1,141 @@
+<?php
+
+$resposta = (string) readline("É mamífero? (sim/nao): ");
+
+if ($resposta === "sim") {
+    $resposta = (string) readline("É quadrúpede? (sim/nao): ");
+
+    if ($resposta === "sim") {
+        $resposta = (string) readline("É carnívoro? (sim/nao): ");
+
+        if ($resposta === "sim") {
+            echo "Então o animal escolhido foi leão." . PHP_EOL;
+        } elseif ($resposta === "nao") {
+            $resposta = (string) readline("É herbívoro? (sim/nao): ");
+
+            if ($resposta === "sim") {
+                echo "Então o animal escolhido foi cavalo." . PHP_EOL;
+            } else {
+                echo "Animal não identificado." . PHP_EOL;
+            }
+        } else {
+            echo "Animal não identificado." . PHP_EOL;
+        }
+    } elseif ($resposta === "nao") {
+        $resposta = (string) readline("É bípede? (sim/nao): ");
+
+        if ($resposta === "sim") {
+            $resposta = (string) readline("É onívoro? (sim/nao): ");
+
+            if ($resposta === "sim") {
+                echo "Então o animal escolhido foi homem." . PHP_EOL;
+            } elseif ($resposta === "nao") {
+                $resposta = (string) readline("É frutívoro? (sim/nao): ");
+
+                if ($resposta === "sim") {
+                    echo "Então o animal escolhido foi macaco." . PHP_EOL;
+                } else {
+                    echo "Animal não identificado." . PHP_EOL;
+                }
+            } else {
+                echo "Animal não identificado." . PHP_EOL;
+            }
+        } elseif ($resposta === "nao") {
+            $resposta = (string) readline("É voador? (sim/nao): ");
+
+            if ($resposta === "sim") {
+                echo "Então o animal escolhido foi morcego." . PHP_EOL;
+            } elseif ($resposta === "nao") {
+                $resposta = (string) readline("É aquático? (sim/nao): ");
+
+                if ($resposta === "sim") {
+                    echo "Então o animal escolhido foi baleia." . PHP_EOL;
+                } else {
+                    echo "Animal não identificado." . PHP_EOL;
+                }
+            } else {
+                echo "Animal não identificado." . PHP_EOL;
+            }
+        } else {
+            echo "Animal não identificado." . PHP_EOL;
+        }
+    } else {
+        echo "Animal não identificado." . PHP_EOL;
+    }
+} elseif ($resposta === "nao") {
+    $resposta = (string) readline("É ave? (sim/nao): ");
+
+    if ($resposta === "sim") {
+        $resposta = (string) readline("É não voadora? (sim/nao): ");
+
+        if ($resposta === "sim") {
+            $resposta = (string) readline("É tropical? (sim/nao): ");
+
+            if ($resposta === "sim") {
+                echo "Então o animal escolhido foi avestruz." . PHP_EOL;
+            } elseif ($resposta === "nao") {
+                $resposta = (string) readline("É polar? (sim/nao): ");
+
+                if ($resposta === "sim") {
+                    echo "Então o animal escolhido foi pinguim." . PHP_EOL;
+                } else {
+                    echo "Animal não identificado." . PHP_EOL;
+                }
+            } else {
+                echo "Animal não identificado." . PHP_EOL;
+            }
+        } elseif ($resposta === "nao") {
+            $resposta = (string) readline("É nadadora? (sim/nao): ");
+
+            if ($resposta === "sim") {
+                echo "Então o animal escolhido foi pato." . PHP_EOL;
+            } elseif ($resposta === "nao") {
+                $resposta = (string) readline("É de rapina? (sim/nao): ");
+
+                if ($resposta === "sim") {
+                    echo "Então o animal escolhido foi águia." . PHP_EOL;
+                } else {
+                    echo "Animal não identificado." . PHP_EOL;
+                }
+            } else {
+                echo "Animal não identificado." . PHP_EOL;
+            }
+        } else {
+            echo "Animal não identificado." . PHP_EOL;
+        }
+    } elseif ($resposta === "nao") {
+        $resposta = (string) readline("É réptil? (sim/nao): ");
+
+        if ($resposta === "sim") {
+            $resposta = (string) readline("Tem casco? (sim/nao): ");
+
+            if ($resposta === "sim") {
+                echo "Então o animal escolhido foi tartaruga." . PHP_EOL;
+            } elseif ($resposta === "nao") {
+                $resposta = (string) readline("É carnívoro? (sim/nao): ");
+
+                if ($resposta === "sim") {
+                    echo "Então o animal escolhido foi crocodilo." . PHP_EOL;
+                } elseif ($resposta === "nao") {
+                    $resposta = (string) readline("Não possui patas? (sim/nao): ");
+
+                    if ($resposta === "sim") {
+                        echo "Então o animal escolhido foi cobra." . PHP_EOL;
+                    } else {
+                        echo "Animal não identificado." . PHP_EOL;
+                    }
+                } else {
+                    echo "Animal não identificado." . PHP_EOL;
+                }
+            } else {
+                echo "Animal não identificado." . PHP_EOL;
+            }
+        } else {
+            echo "Animal não identificado." . PHP_EOL;
+        }
+    } else {
+        echo "Animal não identificado." . PHP_EOL;
+    }
+} else {
+    echo "Animal não identificado." . PHP_EOL;
+}

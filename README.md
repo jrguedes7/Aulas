@@ -6,6 +6,7 @@ Este repositório contém as atividades organizadas por pasta.
 
 - `aula_01/` - atividade inicial com as 7 questões
 - `aula_02/` - atividade de estruturas de decisão e seleção
+- `aula_04/` - atividade de identificação de animais
 - `docker-compose.yml` - ambiente PHP 8.3
 
 ## Como executar
